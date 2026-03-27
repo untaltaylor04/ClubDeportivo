@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="ENTRENADORES" directorySegmentName="seg_0" id="407BDFDC-F31E-BF8E-0FDD-96817FF15CF7">
+<createdBy>taylo</createdBy>
+<createdTime>2025-12-31 00:19:45 UTC</createdTime>
+<ownerDesignName>ER_ClubDeportivo</ownerDesignName>
+<schemaObject>5EB06228-9823-7B7C-4704-1CC6588EAD34</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>5A08093B-C6EA-F7B0-1778-526FE0F1D83E</segment>
+<tableSpace>49C8A558-369B-2FE5-2EF3-E779B4077F44</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NOMBRE" id="24763BC2-F40D-EDE3-3083-ED4BB0B82A7B">
+<createdBy>taylo</createdBy>
+<createdTime>2025-12-31 00:19:46 UTC</createdTime>
+<ownerDesignName>ER_ClubDeportivo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APELLIDO" id="2DB5B818-BF9B-FFBF-DDD6-24A518A65C9A">
+<createdBy>taylo</createdBy>
+<createdTime>2025-12-31 00:19:46 UTC</createdTime>
+<ownerDesignName>ER_ClubDeportivo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_ENTRENADOR" id="7498F521-A5F6-78A0-F360-F18F8AB6615B">
+<createdBy>taylo</createdBy>
+<createdTime>2025-12-31 00:19:46 UTC</createdTime>
+<ownerDesignName>ER_ClubDeportivo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TELÉFONO" id="9911C00B-4EA9-3C28-7FD0-ED8E70E6D819">
+<createdBy>taylo</createdBy>
+<createdTime>2025-12-31 00:19:46 UTC</createdTime>
+<ownerDesignName>ER_ClubDeportivo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMAIL" id="A4633484-D4CD-07CB-248C-7E319E4D8B5F">
+<createdBy>taylo</createdBy>
+<createdTime>2025-12-31 00:19:46 UTC</createdTime>
+<ownerDesignName>ER_ClubDeportivo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ESPECIALIDAD" id="CACF5F85-B5A7-3CCC-85F2-C1F91CC931C8">
+<createdBy>taylo</createdBy>
+<createdTime>2025-12-31 00:19:46 UTC</createdTime>
+<ownerDesignName>ER_ClubDeportivo</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ENTRENADORES_PK" id="4B8F8EC5-248D-5DCD-5AA5-479601D677BF">
+<createdBy>taylo</createdBy>
+<createdTime>2025-12-31 00:19:47 UTC</createdTime>
+<ownerDesignName>ER_ClubDeportivo</ownerDesignName>
+<schemaObject>5EB06228-9823-7B7C-4704-1CC6588EAD34</schemaObject>
+<segment>26DDF9A7-7A97-6116-5C59-1824F2A8BF31</segment>
+<tableSpace>49C8A558-369B-2FE5-2EF3-E779B4077F44</tableSpace>
+<indexSegment>26DDF9A7-7A97-6116-5C59-1824F2A8BF31</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

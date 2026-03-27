@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\taylo\\Desktop\\ClubDeportivo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\taylo\\Desktop\\ClubDeportivo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\taylo\\Desktop\\ClubDeportivo\\Data\\Repositorios\\MiembroRepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Repositorios\\MiembroRepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\taylo\\Desktop\\ClubDeportivo\\Controllers\\MiembroController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\MiembroController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\taylo\\Desktop\\ClubDeportivo\\Data\\Contratos\\IMiembro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Contratos\\IMiembro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\taylo\\Desktop\\ClubDeportivo\\Views\\Miembro\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Miembro\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MiembroController.cs",
+              "DocumentMoniker": "C:\\Users\\taylo\\Desktop\\ClubDeportivo\\Controllers\\MiembroController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MiembroController.cs",
+              "ToolTip": "C:\\Users\\taylo\\Desktop\\ClubDeportivo\\Controllers\\MiembroController.cs",
+              "RelativeToolTip": "Controllers\\MiembroController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T02:38:03.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IMiembro.cs",
+              "DocumentMoniker": "C:\\Users\\taylo\\Desktop\\ClubDeportivo\\Data\\Contratos\\IMiembro.cs",
+              "RelativeDocumentMoniker": "Data\\Contratos\\IMiembro.cs",
+              "ToolTip": "C:\\Users\\taylo\\Desktop\\ClubDeportivo\\Data\\Contratos\\IMiembro.cs",
+              "RelativeToolTip": "Data\\Contratos\\IMiembro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T02:37:53.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MiembroRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\taylo\\Desktop\\ClubDeportivo\\Data\\Repositorios\\MiembroRepositorio.cs",
+              "RelativeDocumentMoniker": "Data\\Repositorios\\MiembroRepositorio.cs",
+              "ToolTip": "C:\\Users\\taylo\\Desktop\\ClubDeportivo\\Data\\Repositorios\\MiembroRepositorio.cs",
+              "RelativeToolTip": "Data\\Repositorios\\MiembroRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T02:19:16.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\taylo\\Desktop\\ClubDeportivo\\Views\\Miembro\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Miembro\\Index.cshtml",
+              "ToolTip": "C:\\Users\\taylo\\Desktop\\ClubDeportivo\\Views\\Miembro\\Index.cshtml",
+              "RelativeToolTip": "Views\\Miembro\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-31T00:54:47.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\taylo\\Desktop\\ClubDeportivo\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\taylo\\Desktop\\ClubDeportivo\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-31T00:41:39.905Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="407BDFDC-F31E-BF8E-0FDD-96817FF15CF7" schemaObject="5EB06228-9823-7B7C-4704-1CC6588EAD34" name="ENTRENADORES">
+<sourceConnName>cn_ClubDeportivo</sourceConnName>
+<sourceObjSchema>C##GRUPO1</sourceObjSchema>
+<sourceObjName>ENTRENADORES</sourceObjName>
+<createdBy>taylo</createdBy>
+<createdTime>2025-12-31 00:19:45 UTC</createdTime>
+<ownerDesignName>ER_ClubDeportivo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ENTRENADOR" id="7498F521-A5F6-78A0-F360-F18F8AB6615B">
+<sourceConnName>cn_ClubDeportivo</sourceConnName>
+<sourceObjSchema>ENTRENADORES</sourceObjSchema>
+<sourceObjName>ID_ENTRENADOR</sourceObjName>
+<createdBy>taylo</createdBy>
+<createdTime>2025-12-31 00:19:46 UTC</createdTime>
+<ownerDesignName>ER_ClubDeportivo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="24763BC2-F40D-EDE3-3083-ED4BB0B82A7B">
+<sourceConnName>cn_ClubDeportivo</sourceConnName>
+<sourceObjSchema>ENTRENADORES</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>taylo</createdBy>
+<createdTime>2025-12-31 00:19:46 UTC</createdTime>
+<ownerDesignName>ER_ClubDeportivo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO" id="2DB5B818-BF9B-FFBF-DDD6-24A518A65C9A">
+<sourceConnName>cn_ClubDeportivo</sourceConnName>
+<sourceObjSchema>ENTRENADORES</sourceObjSchema>
+<sourceObjName>APELLIDO</sourceObjName>
+<createdBy>taylo</createdBy>
+<createdTime>2025-12-31 00:19:46 UTC</createdTime>
+<ownerDesignName>ER_ClubDeportivo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESPECIALIDAD" id="CACF5F85-B5A7-3CCC-85F2-C1F91CC931C8">
+<sourceConnName>cn_ClubDeportivo</sourceConnName>
+<sourceObjSchema>ENTRENADORES</sourceObjSchema>
+<sourceObjName>ESPECIALIDAD</sourceObjName>
+<createdBy>taylo</createdBy>
+<createdTime>2025-12-31 00:19:46 UTC</createdTime>
+<ownerDesignName>ER_ClubDeportivo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELÉFONO" id="9911C00B-4EA9-3C28-7FD0-ED8E70E6D819">
+<sourceConnName>cn_ClubDeportivo</sourceConnName>
+<sourceObjSchema>ENTRENADORES</sourceObjSchema>
+<sourceObjName>TELÉFONO</sourceObjName>
+<createdBy>taylo</createdBy>
+<createdTime>2025-12-31 00:19:46 UTC</createdTime>
+<ownerDesignName>ER_ClubDeportivo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="A4633484-D4CD-07CB-248C-7E319E4D8B5F">
+<sourceConnName>cn_ClubDeportivo</sourceConnName>
+<sourceObjSchema>ENTRENADORES</sourceObjSchema>
+<sourceObjName>EMAIL</sourceObjName>
+<createdBy>taylo</createdBy>
+<createdTime>2025-12-31 00:19:46 UTC</createdTime>
+<ownerDesignName>ER_ClubDeportivo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4B8F8EC5-248D-5DCD-5AA5-479601D677BF" schemaObject="5EB06228-9823-7B7C-4704-1CC6588EAD34" name="ENTRENADORES_PK">
+<sourceConnName>cn_ClubDeportivo</sourceConnName>
+<sourceObjSchema>C##GRUPO1</sourceObjSchema>
+<sourceObjName>SYS_C008417</sourceObjName>
+<createdBy>taylo</createdBy>
+<createdTime>2025-12-31 00:19:46 UTC</createdTime>
+<ownerDesignName>ER_ClubDeportivo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7498F521-A5F6-78A0-F360-F18F8AB6615B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

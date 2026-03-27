@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ER_ClubDeportivo" id="96D14EC8-D87D-8CD5-F62A-EA5B51AB0AB2" version="3.5">
+<createdBy>taylo</createdBy>
+<createdTime>2025-12-31 00:19:29 UTC</createdTime>
+<ownerDesignName>ER_ClubDeportivo</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>96D14EC8-D87D-8CD5-F62A-EA5B51AB0AB2</designId>
+</OSDM_Design>

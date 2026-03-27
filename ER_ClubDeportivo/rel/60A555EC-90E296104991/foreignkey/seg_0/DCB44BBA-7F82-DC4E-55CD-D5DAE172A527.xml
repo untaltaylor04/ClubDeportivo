@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DCB44BBA-7F82-DC4E-55CD-D5DAE172A527" containerWithKeyObject="030EE166-9681-DBD5-8AD0-AAAFF1E2CD99" localFKIndex="9D6C4B5D-9F6D-1D42-795D-36B8AB175EE8" name="FK_ACTIVIDAD">
+<sourceConnName>cn_ClubDeportivo</sourceConnName>
+<sourceObjSchema>C##GRUPO1</sourceObjSchema>
+<sourceObjName>FK_ACTIVIDAD</sourceObjName>
+<createdBy>taylo</createdBy>
+<createdTime>2025-12-31 00:19:47 UTC</createdTime>
+<ownerDesignName>ER_ClubDeportivo</ownerDesignName>
+<referredTableLongName>C##GRUPO1.ACTIVIDADES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C85AA3CC-F512-0E65-4C64-EE1981590862</referredTableID>
+<keyObject>6ADB076A-9C6A-CCDE-AD25-096B373380A9</keyObject>
+<referredKeyID>6ADB076A-9C6A-CCDE-AD25-096B373380A9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ACTIVIDAD</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

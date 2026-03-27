@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ClubDeportivo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EBE77601-F231-40C5-B2C8-84359C1DA53C}|ClubDeportivo.csproj|d:\\clubdeportivo\\clubdeportivo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EBE77601-F231-40C5-B2C8-84359C1DA53C}|ClubDeportivo.csproj|solutionrelative:clubdeportivo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClubDeportivo",
+              "DocumentMoniker": "D:\\ClubDeportivo\\ClubDeportivo.csproj",
+              "RelativeDocumentMoniker": "ClubDeportivo.csproj",
+              "ToolTip": "D:\\ClubDeportivo\\ClubDeportivo.csproj",
+              "RelativeToolTip": "ClubDeportivo.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-07T19:33:10.196Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+﻿@model ClubDeportivo.Models.Miembro
+
+@{
+    ViewData["Title"] = "Detalle del Miembro";
+}
+
+<h2 class="mb-4">Detalles del Miembro</h2>
+
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <dl class="row mb-0">
+                    <dt class="col-sm-4">Id Miembro</dt>
+                    <dd class="col-sm-8">@Model.idMiembro</dd>
+
+                    <dt class="col-sm-4">Nombre</dt>
+                    <dd class="col-sm-8">@Model.nombre</dd>
+
+                    <dt class="col-sm-4">Apellido</dt>
+                    <dd class="col-sm-8">@Model.apellido</dd>
+
+                    <dt class="col-sm-4">Fecha de Nacimiento</dt>
+                    <dd class="col-sm-8">
+                        @Model.fechaNacimiento.ToString("dd/MM/yyyy")
+                    </dd>
+
+                    <dt class="col-sm-4">Teléfono</dt>
+                    <dd class="col-sm-8">@Model.telefono</dd>
+
+                    <dt class="col-sm-4">Email</dt>
+                    <dd class="col-sm-8">@Model.email</dd>
+
+                    <dt class="col-sm-4">Dirección</dt>
+                    <dd class="col-sm-8">@Model.direccion</dd>
+                </dl>
+            </div>
+
+            <!-- FOOTER CON BOTONES -->
+            <div class="card-footer d-flex justify-content-between">
+                <a asp-action="Index" class="btn btn-outline-secondary">
+                    Volver
+                </a>
+
+                <a asp-action="Edit"
+                   asp-route-id="@Model.idMiembro"
+                   class="btn btn-primary">
+                    Editar
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

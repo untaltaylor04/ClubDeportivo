@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C85AA3CC-F512-0E65-4C64-EE1981590862" schemaObject="5EB06228-9823-7B7C-4704-1CC6588EAD34" name="ACTIVIDADES">
+<sourceConnName>cn_ClubDeportivo</sourceConnName>
+<sourceObjSchema>C##GRUPO1</sourceObjSchema>
+<sourceObjName>ACTIVIDADES</sourceObjName>
+<createdBy>taylo</createdBy>
+<createdTime>2025-12-31 00:19:45 UTC</createdTime>
+<ownerDesignName>ER_ClubDeportivo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ACTIVIDAD" id="8C27CDFF-573A-9676-7774-F84F9EAFD7E6">
+<sourceConnName>cn_ClubDeportivo</sourceConnName>
+<sourceObjSchema>ACTIVIDADES</sourceObjSchema>
+<sourceObjName>ID_ACTIVIDAD</sourceObjName>
+<createdBy>taylo</createdBy>
+<createdTime>2025-12-31 00:19:46 UTC</createdTime>
+<ownerDesignName>ER_ClubDeportivo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_ACTIVIDAD" id="4EFD045D-D68F-0294-3FD1-73999D01A5FD">
+<sourceConnName>cn_ClubDeportivo</sourceConnName>
+<sourceObjSchema>ACTIVIDADES</sourceObjSchema>
+<sourceObjName>NOMBRE_ACTIVIDAD</sourceObjName>
+<createdBy>taylo</createdBy>
+<createdTime>2025-12-31 00:19:46 UTC</createdTime>
+<ownerDesignName>ER_ClubDeportivo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCIÓN" id="41814F2E-066C-BB84-80E0-2F416FEE57A0">
+<sourceConnName>cn_ClubDeportivo</sourceConnName>
+<sourceObjSchema>ACTIVIDADES</sourceObjSchema>
+<sourceObjName>DESCRIPCIÓN</sourceObjName>
+<createdBy>taylo</createdBy>
+<createdTime>2025-12-31 00:19:46 UTC</createdTime>
+<ownerDesignName>ER_ClubDeportivo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<ownDataTypeParameters>250 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORARIO" id="C21FC79F-0C33-E2FD-AB8A-E7F8DC5610E9">
+<sourceConnName>cn_ClubDeportivo</sourceConnName>
+<sourceObjSchema>ACTIVIDADES</sourceObjSchema>
+<sourceObjName>HORARIO</sourceObjName>
+<createdBy>taylo</createdBy>
+<createdTime>2025-12-31 00:19:46 UTC</createdTime>
+<ownerDesignName>ER_ClubDeportivo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DURACIÓN" id="8B752E6A-92B4-D578-1507-2D6298B9F480">
+<sourceConnName>cn_ClubDeportivo</sourceConnName>
+<sourceObjSchema>ACTIVIDADES</sourceObjSchema>
+<sourceObjName>DURACIÓN</sourceObjName>
+<createdBy>taylo</createdBy>
+<createdTime>2025-12-31 00:19:46 UTC</createdTime>
+<ownerDesignName>ER_ClubDeportivo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_ENTRENADOR" id="AF16D8A8-4908-2389-AE61-265D4CC37B2F">
+<sourceConnName>cn_ClubDeportivo</sourceConnName>
+<sourceObjSchema>ACTIVIDADES</sourceObjSchema>
+<sourceObjName>ID_ENTRENADOR</sourceObjName>
+<createdBy>taylo</createdBy>
+<createdTime>2025-12-31 00:19:46 UTC</createdTime>
+<ownerDesignName>ER_ClubDeportivo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F69C0E46-8422-F724-365E-9FF3E4D73161" referredColumn="7498F521-A5F6-78A0-F360-F18F8AB6615B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6ADB076A-9C6A-CCDE-AD25-096B373380A9" schemaObject="5EB06228-9823-7B7C-4704-1CC6588EAD34" name="ACTIVIDADES_PK">
+<sourceConnName>cn_ClubDeportivo</sourceConnName>
+<sourceObjSchema>C##GRUPO1</sourceObjSchema>
+<sourceObjName>SYS_C008419</sourceObjName>
+<createdBy>taylo</createdBy>
+<createdTime>2025-12-31 00:19:46 UTC</createdTime>
+<ownerDesignName>ER_ClubDeportivo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C27CDFF-573A-9676-7774-F84F9EAFD7E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD0AE702-92EB-0AE9-5FFE-17DC8DF87778" name="FK_ENTRENADOR">
+<createdBy>taylo</createdBy>
+<createdTime>2025-12-31 00:19:47 UTC</createdTime>
+<ownerDesignName>ER_ClubDeportivo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF16D8A8-4908-2389-AE61-265D4CC37B2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

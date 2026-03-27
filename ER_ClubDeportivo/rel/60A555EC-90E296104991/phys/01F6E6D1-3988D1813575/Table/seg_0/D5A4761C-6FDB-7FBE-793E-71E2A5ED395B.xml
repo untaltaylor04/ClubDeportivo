@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="MIEMBROS" directorySegmentName="seg_0" id="D5A4761C-6FDB-7FBE-793E-71E2A5ED395B">
+<createdBy>taylo</createdBy>
+<createdTime>2025-12-31 00:19:45 UTC</createdTime>
+<ownerDesignName>ER_ClubDeportivo</ownerDesignName>
+<schemaObject>5EB06228-9823-7B7C-4704-1CC6588EAD34</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>48759AF8-55E0-5667-632B-98A92155090E</segment>
+<tableSpace>49C8A558-369B-2FE5-2EF3-E779B4077F44</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DIRECCION" id="06ECC65A-38BA-A7FE-755B-3F600359C74F">
+<createdBy>taylo</createdBy>
+<createdTime>2025-12-31 00:19:46 UTC</createdTime>
+<ownerDesignName>ER_ClubDeportivo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APELLIDO" id="2651D277-1D16-DD2F-476C-8A0D40DEC56A">
+<createdBy>taylo</createdBy>
+<createdTime>2025-12-31 00:19:46 UTC</createdTime>
+<ownerDesignName>ER_ClubDeportivo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_NACIMIENTO" id="4A2FAF46-EB3D-AD35-2B7A-CF2BFE6714C4">
+<createdBy>taylo</createdBy>
+<createdTime>2025-12-31 00:19:46 UTC</createdTime>
+<ownerDesignName>ER_ClubDeportivo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_MIEMBRO" id="4B3F9BCC-FA42-FBDE-8F97-0141ADDDC63B">
+<createdBy>taylo</createdBy>
+<createdTime>2025-12-31 00:19:46 UTC</createdTime>
+<ownerDesignName>ER_ClubDeportivo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TELEFONO" id="6EBFFE3B-CD7D-A7E5-3E6F-8108BBCF4A3B">
+<createdBy>taylo</createdBy>
+<createdTime>2025-12-31 00:19:46 UTC</createdTime>
+<ownerDesignName>ER_ClubDeportivo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMAIL" id="95B9D9A0-EA5A-8C1C-4E02-E74973FE78C2">
+<createdBy>taylo</createdBy>
+<createdTime>2025-12-31 00:19:46 UTC</createdTime>
+<ownerDesignName>ER_ClubDeportivo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE" id="A33C79FD-5065-0469-26FB-8ACDEE75746E">
+<createdBy>taylo</createdBy>
+<createdTime>2025-12-31 00:19:46 UTC</createdTime>
+<ownerDesignName>ER_ClubDeportivo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ESTADO" id="DE1D0B44-BFE4-423F-1DC2-4E86C0F77336">
+<createdBy>taylo</createdBy>
+<createdTime>2025-12-31 00:19:46 UTC</createdTime>
+<ownerDesignName>ER_ClubDeportivo</ownerDesignName>
+<defaultValue>&apos;ACTIVO&apos;</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="MIEMBROS_PK" id="7D8F3C09-7043-A1EF-7521-8E71564F81CF">
+<createdBy>taylo</createdBy>
+<createdTime>2025-12-31 00:19:47 UTC</createdTime>
+<ownerDesignName>ER_ClubDeportivo</ownerDesignName>
+<schemaObject>5EB06228-9823-7B7C-4704-1CC6588EAD34</schemaObject>
+<segment>233DCC54-07DF-8AC7-1D88-64A594DF74FB</segment>
+<tableSpace>49C8A558-369B-2FE5-2EF3-E779B4077F44</tableSpace>
+<indexSegment>233DCC54-07DF-8AC7-1D88-64A594DF74FB</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>
